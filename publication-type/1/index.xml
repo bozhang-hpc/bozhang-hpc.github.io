@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Bo Zhang&#39;s Home Page</title>
-    <link>https://example.com/publication-type/1/</link>
-      <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.bozhang-hpc.com/publication-type/1/</link>
+      <atom:link href="https://www.bozhang-hpc.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>https://example.com/publication-type/1/</link>
+      <link>https://www.bozhang-hpc.com/publication-type/1/</link>
     </image>
     
     <item>
       <title>Optimizing Data Movement for GPU-Based In-Situ Workflow using GPUDirect RDMA</title>
-      <link>https://example.com/publication/zhang2023optimizing/</link>
+      <link>https://www.bozhang-hpc.com/publication/zhang2023optimizing/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhang2023optimizing/</guid>
+      <guid>https://www.bozhang-hpc.com/publication/zhang2023optimizing/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -41,9 +41,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Assembling Portable In-Situ Workflow from Heterogeneous Components using Data Reorganization</title>
-      <link>https://example.com/publication/zhang2022assembling/</link>
+      <link>https://www.bozhang-hpc.com/publication/zhang2022assembling/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/zhang2022assembling/</guid>
+      <guid>https://www.bozhang-hpc.com/publication/zhang2022assembling/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

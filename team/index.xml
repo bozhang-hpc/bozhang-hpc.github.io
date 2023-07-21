@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teams | Bo Zhang&#39;s Home Page</title>
-    <link>https://example.com/team/</link>
-      <atom:link href="https://example.com/team/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.bozhang-hpc.com/team/</link>
+      <atom:link href="https://www.bozhang-hpc.com/team/index.xml" rel="self" type="application/rss+xml" />
     <description>Teams</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
       <title>Teams</title>
-      <link>https://example.com/team/</link>
+      <link>https://www.bozhang-hpc.com/team/</link>
     </image>
     
     <item>
       <title>An example title</title>
-      <link>https://example.com/team/test/</link>
+      <link>https://www.bozhang-hpc.com/team/test/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/team/test/</guid>
+      <guid>https://www.bozhang-hpc.com/team/test/</guid>
       <description>&lt;p&gt;Add your &lt;em&gt;content&lt;/em&gt; here&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An example title 111</title>
-      <link>https://example.com/team/test1/</link>
+      <link>https://www.bozhang-hpc.com/team/test1/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/team/test1/</guid>
+      <guid>https://www.bozhang-hpc.com/team/test1/</guid>
       <description>&lt;p&gt;Add your &lt;em&gt;content&lt;/em&gt; here&amp;hellip;&lt;/p&gt;
 </description>
     </item>
