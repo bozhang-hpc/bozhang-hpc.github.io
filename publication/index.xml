@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Bo Zhang&#39;s Home Page</title>
+    <link>https://www.bozhang-hpc.com/publication/</link>
+      <atom:link href="https://www.bozhang-hpc.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://www.bozhang-hpc.com/publication/</link>
+    </image>
+    
+    <item>
+      <title>Optimizing Data Movement for GPU-Based In-Situ Workflow using GPUDirect RDMA</title>
+      <link>https://www.bozhang-hpc.com/publication/zhang2023optimizing/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.bozhang-hpc.com/publication/zhang2023optimizing/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization</title>
+      <link>https://www.bozhang-hpc.com/publication/ahdritz2022openfold/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.bozhang-hpc.com/publication/ahdritz2022openfold/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assembling Portable In-Situ Workflow from Heterogeneous Components using Data Reorganization</title>
+      <link>https://www.bozhang-hpc.com/publication/zhang2022assembling/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.bozhang-hpc.com/publication/zhang2022assembling/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
