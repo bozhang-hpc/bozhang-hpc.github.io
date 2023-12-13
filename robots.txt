@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://www.bozhang-hpc.com/sitemap.xml
