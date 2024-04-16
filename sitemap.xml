@@ -10,12 +10,28 @@
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://www.bozhang-hpc.com/project/ndp/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://www.bozhang-hpc.com/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://www.bozhang-hpc.com/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://www.bozhang-hpc.com/tag/collaboration/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://www.bozhang-hpc.com/project/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://www.bozhang-hpc.com/tags/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://www.bozhang-hpc.com/post/blog-with-jupyter/</loc>
@@ -42,19 +58,7 @@
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.bozhang-hpc.com/tag/collaboration/</loc>
-    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://www.bozhang-hpc.com/tag/my-research/</loc>
-    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://www.bozhang-hpc.com/project/</loc>
-    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://www.bozhang-hpc.com/tags/</loc>
     <lastmod>2023-07-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

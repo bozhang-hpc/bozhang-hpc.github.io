@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>artical | Bo Zhang&#39;s Home Page</title>
+    <title>Artical | Bo Zhang&#39;s Home Page</title>
     <link>https://www.bozhang-hpc.com/publication-type/artical/</link>
       <atom:link href="https://www.bozhang-hpc.com/publication-type/artical/index.xml" rel="self" type="application/rss+xml" />
-    <description>artical</description>
+    <description>Artical</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 24 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
-      <title>artical</title>
+      <title>Artical</title>
       <link>https://www.bozhang-hpc.com/publication-type/artical/</link>
     </image>
     

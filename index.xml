@@ -29,6 +29,14 @@
     </item>
     
     <item>
+      <title>National Data Platform (NDP)</title>
+      <link>https://www.bozhang-hpc.com/project/ndp/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.bozhang-hpc.com/project/ndp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://www.bozhang-hpc.com/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -351,7 +359,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-514628397&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-432517689&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -361,7 +369,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-514628397&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-432517689&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
