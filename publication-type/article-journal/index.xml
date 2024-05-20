@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | Bo Zhang&#39;s Home Page</title>
+    <link>https://www.bozhang-hpc.com/publication-type/article-journal/</link>
+      <atom:link href="https://www.bozhang-hpc.com/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_512x512_fill_lanczos_center_3.png</url>
+      <title>Article-Journal</title>
+      <link>https://www.bozhang-hpc.com/publication-type/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization</title>
+      <link>https://www.bozhang-hpc.com/publication/ahdritz2022openfold/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.bozhang-hpc.com/publication/ahdritz2022openfold/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 15, 2024 --><html lang="en-us" >
+<!-- Last Published: May 20, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -279,7 +279,7 @@
 
   
 
-<meta name="description" content="AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (i) tackle new tasks, like protein-ligand complex structure prediction, (ii) investigate the process by which the model learns, which remains poorly understood, and (iii) assess the model’s generalization capacity to unseen regions of fold space. Here we report OpenFold, a fast, memory-efficient, and trainable implementation of AlphaFold2, and OpenProtein-Set, the largest public database of protein multiple sequence alignments. We use OpenProteinSet to train OpenFold from scratch, fully matching the accuracy of AlphaFold2. Having established parity, we assess OpenFold’s capacity to generalize across fold space by retraining it using carefully designed datasets. We find that OpenFold is remarkably robust at generalizing despite extreme reductions in training set size and diversity, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced by OpenFold during training, we also gain surprising insights into the manner in which the model learns to fold proteins, discovering that spatial dimensions are learned sequentially. Taken together, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial new resource for the protein modeling community." />
+<meta name="description" content="AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community." />
 
 
 
@@ -324,16 +324,16 @@
 <meta property="og:site_name" content="Bo Zhang&#39;s Home Page" />
 <meta property="og:url" content="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/" />
 <meta property="og:title" content="OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization | Bo Zhang&#39;s Home Page" />
-<meta property="og:description" content="AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (i) tackle new tasks, like protein-ligand complex structure prediction, (ii) investigate the process by which the model learns, which remains poorly understood, and (iii) assess the model’s generalization capacity to unseen regions of fold space. Here we report OpenFold, a fast, memory-efficient, and trainable implementation of AlphaFold2, and OpenProtein-Set, the largest public database of protein multiple sequence alignments. We use OpenProteinSet to train OpenFold from scratch, fully matching the accuracy of AlphaFold2. Having established parity, we assess OpenFold’s capacity to generalize across fold space by retraining it using carefully designed datasets. We find that OpenFold is remarkably robust at generalizing despite extreme reductions in training set size and diversity, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced by OpenFold during training, we also gain surprising insights into the manner in which the model learns to fold proteins, discovering that spatial dimensions are learned sequentially. Taken together, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial new resource for the protein modeling community." /><meta property="og:image" content="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community." /><meta property="og:image" content="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2022-07-20T00:00:00&#43;00:00"
+      content="2024-05-20T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2022-11-24T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-05-14T00:00:00&#43;00:00">
   
 
 
@@ -365,8 +365,8 @@
     "https://www.bozhang-hpc.com/publication/ahdritz2022openfold/featured.png"
   ],
   
-  "datePublished": "2022-07-20T00:00:00Z",
-  "dateModified": "2022-11-24T00:00:00Z",
+  "datePublished": "2024-05-20T00:00:00Z",
+  "dateModified": "2024-05-14T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -381,7 +381,7 @@
       "url": "https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (i) tackle new tasks, like protein-ligand complex structure prediction, (ii) investigate the process by which the model learns, which remains poorly understood, and (iii) assess the model’s generalization capacity to unseen regions of fold space. Here we report OpenFold, a fast, memory-efficient, and trainable implementation of AlphaFold2, and OpenProtein-Set, the largest public database of protein multiple sequence alignments. We use OpenProteinSet to train OpenFold from scratch, fully matching the accuracy of AlphaFold2. Having established parity, we assess OpenFold’s capacity to generalize across fold space by retraining it using carefully designed datasets. We find that OpenFold is remarkably robust at generalizing despite extreme reductions in training set size and diversity, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced by OpenFold during training, we also gain surprising insights into the manner in which the model learns to fold proteins, discovering that spatial dimensions are learned sequentially. Taken together, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial new resource for the protein modeling community."
+  "description": "AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community."
 }
 </script>
 
@@ -752,6 +752,7 @@
   <span >
       Gustaf Ahdritz</span>, <span >
       Nazim Bouatta</span>, <span >
+      Christina Floristean</span>, <span >
       Sachin Kadyan</span>, <span >
       Qinghui Xia</span>, <span >
       William Gerecke</span>, <span >
@@ -773,6 +774,11 @@
       Lucas Nivon</span>, <span >
       Brian Weitzner</span>, <span >
       Yih-en Andrew Ban</span>, <span >
+      Shiyang Chen</span>, <span >
+      Minjia Zhang</span>, <span >
+      Conglong Li</span>, <span >
+      Shuaiwen Leon Song</span>, <span >
+      Yuxiong He</span>, <span >
       Peter K Sorger</span>, <span >
       Emad Mostaque</span>, <span >
       Zhao Zhang</span>, <span >
@@ -788,7 +794,7 @@
     
       
     
-    November, 2022
+    May, 2024
   </span>
   
 
@@ -845,7 +851,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://doi.org/10.1101/2022.11.20.517210" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://doi.org/10.1038/s41592-024-02272-z" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -870,7 +876,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (i) tackle new tasks, like protein-ligand complex structure prediction, (ii) investigate the process by which the model learns, which remains poorly understood, and (iii) assess the model’s generalization capacity to unseen regions of fold space. Here we report OpenFold, a fast, memory-efficient, and trainable implementation of AlphaFold2, and OpenProtein-Set, the largest public database of protein multiple sequence alignments. We use OpenProteinSet to train OpenFold from scratch, fully matching the accuracy of AlphaFold2. Having established parity, we assess OpenFold’s capacity to generalize across fold space by retraining it using carefully designed datasets. We find that OpenFold is remarkably robust at generalizing despite extreme reductions in training set size and diversity, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced by OpenFold during training, we also gain surprising insights into the manner in which the model learns to fold proteins, discovering that spatial dimensions are learned sequentially. Taken together, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial new resource for the protein modeling community.</p>
+    <p class="pub-abstract">AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community.</p>
     
 
     
@@ -881,8 +887,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#artical">
-              Artical
+            <a href="/publication/#article-journal">
+              Journal article
             </a>
           </div>
         </div>
@@ -898,7 +904,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">bioRxiv</div>
+          <div class="col-12 col-md-9">Nature Methods</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -945,6 +951,42 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
