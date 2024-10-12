@@ -279,12 +279,12 @@
 
   
 
-<meta name="description" content="AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community." />
+<meta name="description" content="In-situ workflows have emerged as an attractive approach for addressing data movement challenges at very large scales. Since GPU-based architectures dominate the HPC landscapes, porting these in-situ workflows, and, specifically, the inter-application data exchange, to GPU-based systems can be challenging. Technologies such as GPUDirect RDMA (GDR), which is typically used for I/O in GPU applications as an optimization that circumvents the CPU overhead, can be leveraged to support bulk data exchanges between GPU applications. However, current GDR design often lacks performance portability across HPC clusters built with different hardware configurations. Furthermore, the local CPU may also be effectively used as an auxiliary communication mechanism to offload data exchanges. In this paper, we present a dual channel dual staging approach for efficient, scalable, and performance-portable inter-application data exchange for in-situ workflows. This approach exploits the data access pattern within in-situ workflows along with the inherent execution asynchrony to accelerate data exchanges and, at the same time, improve performance portability. Specifically, the dual channel dual staging method leverages both the local CPU and the remote data staging server to build a hierarchical joint staging area and uses this staging area to transform blocking inter-application bulk data exchanges into best-effort local data movements between GPU and CPU. The dual channel dual staging is implemented as a portability extension of the Dataspaces-GPU staging framework. We present an experimental evaluation of its performance, portability, and scalability using this implementation on three leadership GPU clusters. The evaluation results demonstrate that the dual channel dual staging method saves up to 75\% in data-exchange time compared to host-based, GDR, and alternate portable designs, while maintaining scalability (up to 512 GPUs) and performance portability across the three platforms." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/" />
-<link rel="canonical" href="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/" />
+<link rel="alternate" hreflang="en-us" href="https://www.bozhang-hpc.com/publication/zhang2024dual/" />
+<link rel="canonical" href="https://www.bozhang-hpc.com/publication/zhang2024dual/" />
 
 
 
@@ -314,7 +314,7 @@
 
 
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/featured.png" />
+<meta property="twitter:image" content="https://www.bozhang-hpc.com/publication/zhang2024dual/featured.png" />
 
 
 
@@ -322,18 +322,18 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="Bo Zhang&#39;s Home Page" />
-<meta property="og:url" content="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/" />
-<meta property="og:title" content="OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization | Bo Zhang&#39;s Home Page" />
-<meta property="og:description" content="AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community." /><meta property="og:image" content="https://www.bozhang-hpc.com/publication/ahdritz2022openfold/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://www.bozhang-hpc.com/publication/zhang2024dual/" />
+<meta property="og:title" content="Dual Channel Dual Staging: Hierarchical and Portable Staging for GPU-Based In-Situ Workflow | Bo Zhang&#39;s Home Page" />
+<meta property="og:description" content="In-situ workflows have emerged as an attractive approach for addressing data movement challenges at very large scales. Since GPU-based architectures dominate the HPC landscapes, porting these in-situ workflows, and, specifically, the inter-application data exchange, to GPU-based systems can be challenging. Technologies such as GPUDirect RDMA (GDR), which is typically used for I/O in GPU applications as an optimization that circumvents the CPU overhead, can be leveraged to support bulk data exchanges between GPU applications. However, current GDR design often lacks performance portability across HPC clusters built with different hardware configurations. Furthermore, the local CPU may also be effectively used as an auxiliary communication mechanism to offload data exchanges. In this paper, we present a dual channel dual staging approach for efficient, scalable, and performance-portable inter-application data exchange for in-situ workflows. This approach exploits the data access pattern within in-situ workflows along with the inherent execution asynchrony to accelerate data exchanges and, at the same time, improve performance portability. Specifically, the dual channel dual staging method leverages both the local CPU and the remote data staging server to build a hierarchical joint staging area and uses this staging area to transform blocking inter-application bulk data exchanges into best-effort local data movements between GPU and CPU. The dual channel dual staging is implemented as a portability extension of the Dataspaces-GPU staging framework. We present an experimental evaluation of its performance, portability, and scalability using this implementation on three leadership GPU clusters. The evaluation results demonstrate that the dual channel dual staging method saves up to 75\% in data-exchange time compared to host-based, GDR, and alternate portable designs, while maintaining scalability (up to 512 GPUs) and performance portability across the three platforms." /><meta property="og:image" content="https://www.bozhang-hpc.com/publication/zhang2024dual/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2024-05-20T00:00:00&#43;00:00"
+      content="2024-10-11T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2024-05-14T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-12-18T00:00:00&#43;00:00">
   
 
 
@@ -357,20 +357,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.bozhang-hpc.com/publication/ahdritz2022openfold/"
+    "@id": "https://www.bozhang-hpc.com/publication/zhang2024dual/"
   },
-  "headline": "OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization",
+  "headline": "Dual Channel Dual Staging: Hierarchical and Portable Staging for GPU-Based In-Situ Workflow",
   
   "image": [
-    "https://www.bozhang-hpc.com/publication/ahdritz2022openfold/featured.png"
+    "https://www.bozhang-hpc.com/publication/zhang2024dual/featured.png"
   ],
   
-  "datePublished": "2024-05-20T00:00:00Z",
-  "dateModified": "2024-05-14T00:00:00Z",
+  "datePublished": "2024-10-11T00:00:00Z",
+  "dateModified": "2024-12-18T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Gustaf Ahdritz"
+    "name": "Bo Zhang"
   },
   
   "publisher": {
@@ -381,7 +381,7 @@
       "url": "https://www.bozhang-hpc.com/media/icon_hu23cbb17adfc66b12ec540fcac53dde6a_1008_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community."
+  "description": "In-situ workflows have emerged as an attractive approach for addressing data movement challenges at very large scales. Since GPU-based architectures dominate the HPC landscapes, porting these in-situ workflows, and, specifically, the inter-application data exchange, to GPU-based systems can be challenging. Technologies such as GPUDirect RDMA (GDR), which is typically used for I/O in GPU applications as an optimization that circumvents the CPU overhead, can be leveraged to support bulk data exchanges between GPU applications. However, current GDR design often lacks performance portability across HPC clusters built with different hardware configurations. Furthermore, the local CPU may also be effectively used as an auxiliary communication mechanism to offload data exchanges. In this paper, we present a dual channel dual staging approach for efficient, scalable, and performance-portable inter-application data exchange for in-situ workflows. This approach exploits the data access pattern within in-situ workflows along with the inherent execution asynchrony to accelerate data exchanges and, at the same time, improve performance portability. Specifically, the dual channel dual staging method leverages both the local CPU and the remote data staging server to build a hierarchical joint staging area and uses this staging area to transform blocking inter-application bulk data exchanges into best-effort local data movements between GPU and CPU. The dual channel dual staging is implemented as a portability extension of the Dataspaces-GPU staging framework. We present an experimental evaluation of its performance, portability, and scalability using this implementation on three leadership GPU clusters. The evaluation results demonstrate that the dual channel dual staging method saves up to 75\\% in data-exchange time compared to host-based, GDR, and alternate portable designs, while maintaining scalability (up to 512 GPUs) and performance portability across the three platforms."
 }
 </script>
 
@@ -403,7 +403,7 @@
 
 
   
-  <title>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization | Bo Zhang&#39;s Home Page</title>
+  <title>Dual Channel Dual Staging: Hierarchical and Portable Staging for GPU-Based In-Situ Workflow | Bo Zhang&#39;s Home Page</title>
 
   
   
@@ -423,7 +423,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6c649eed921c0fb1e15d7279db3cbdfc" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2c5a045aab8b657ebfd5f6d7fec5cbd6" >
 
   
   
@@ -733,7 +733,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization</h1>
+  <h1>Dual Channel Dual Staging: Hierarchical and Portable Staging for GPU-Based In-Situ Workflow</h1>
 
   
 
@@ -749,41 +749,12 @@
   <div>
     
 
-  <span >
-      Gustaf Ahdritz</span>, <span >
-      Nazim Bouatta</span>, <span >
-      Christina Floristean</span>, <span >
-      Sachin Kadyan</span>, <span >
-      Qinghui Xia</span>, <span >
-      William Gerecke</span>, <span >
-      Timothy J O’Donnell</span>, <span >
-      Daniel Berenberg</span>, <span >
-      Ian Fisk</span>, <span >
-      Niccolò Zanichelli</span>, <span class="author-highlighted">
+  <span class="author-highlighted">
       Bo Zhang</span>, <span >
-      Arkadiusz Nowaczynski</span>, <span >
-      Bei Wang</span>, <span >
-      Marta M Stepniewska-Dziubinska</span>, <span >
-      Shang Zhang</span>, <span >
-      Adegoke Ojewole</span>, <span >
-      Murat Efe Guney</span>, <span >
-      Stella Biderman</span>, <span >
-      Andrew M Watkins</span>, <span >
-      Stephen Ra</span>, <span >
-      Pablo Ribalta Lorenzo</span>, <span >
-      Lucas Nivon</span>, <span >
-      Brian Weitzner</span>, <span >
-      Yih-en Andrew Ban</span>, <span >
-      Shiyang Chen</span>, <span >
-      Minjia Zhang</span>, <span >
-      Conglong Li</span>, <span >
-      Shuaiwen Leon Song</span>, <span >
-      Yuxiong He</span>, <span >
-      Peter K Sorger</span>, <span >
-      Emad Mostaque</span>, <span >
+      Philip E Davis</span>, <span >
       Zhao Zhang</span>, <span >
-      Richard Bonneau</span>, <span >
-      Mohammed AlQuraishi</span>
+      Keita Teranishi</span>, <span >
+      Manish Parashar</span>
   </div>
   
   
@@ -794,7 +765,7 @@
     
       
     
-    May, 2024
+    December, 2024
   </span>
   
 
@@ -835,7 +806,7 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/ahdritz2022openfold/cite.bib">
+        data-filename="/publication/zhang2024dual/cite.bib">
   Cite
 </a>
 
@@ -851,10 +822,6 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/https://doi.org/10.1038/s41592-024-02272-z" target="_blank" rel="noopener">
-  DOI
-</a>
-
 
 
 </div>
@@ -863,9 +830,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 331px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 258px;">
   <div style="position: relative">
-    <img src="/publication/ahdritz2022openfold/featured_hu7cf3ab989678793a8d968119c2dfb3c5_1926340_da0d9a56f9d5ec391d00ecd67f9541f3.webp" width="720" height="331" alt="" class="featured-image">
+    <img src="/publication/zhang2024dual/featured_hu9ed9af9ef9d1c3f32422a458ca821c46_710879_17f4c758dabc07c6cd5c48a29273c0bf.webp" width="720" height="258" alt="" class="featured-image">
     
   </div>
 </div>
@@ -876,7 +843,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">AlphaFold2 revolutionized structural biology with the ability to predict protein structures with exceptionally high accuracy. Its implementation, however, lacks the code and data required to train new models. These are necessary to (1) tackle new tasks, like protein–ligand complex structure prediction, (2) investigate the process by which the model learns and (3) assess the model’s capacity to generalize to unseen regions of fold space. Here we report OpenFold, a fast, memory efficient and trainable implementation of AlphaFold2. We train OpenFold from scratch, matching the accuracy of AlphaFold2. Having established parity, we find that OpenFold is remarkably robust at generalizing even when the size and diversity of its training set is deliberately limited, including near-complete elisions of classes of secondary structure elements. By analyzing intermediate structures produced during training, we also gain insights into the hierarchical manner in which OpenFold learns to fold. In sum, our studies demonstrate the power and utility of OpenFold, which we believe will prove to be a crucial resource for the protein modeling community.</p>
+    <p class="pub-abstract">In-situ workflows have emerged as an attractive approach for addressing data movement challenges at very large scales. Since GPU-based architectures dominate the HPC landscapes, porting these in-situ workflows, and, specifically, the inter-application data exchange, to GPU-based systems can be challenging. Technologies such as GPUDirect RDMA (GDR), which is typically used for I/O in GPU applications as an optimization that circumvents the CPU overhead, can be leveraged to support bulk data exchanges between GPU applications. However, current GDR design often lacks performance portability across HPC clusters built with different hardware configurations. Furthermore, the local CPU may also be effectively used as an auxiliary communication mechanism to offload data exchanges. In this paper, we present a dual channel dual staging approach for efficient, scalable, and performance-portable inter-application data exchange for in-situ workflows. This approach exploits the data access pattern within in-situ workflows along with the inherent execution asynchrony to accelerate data exchanges and, at the same time, improve performance portability. Specifically, the dual channel dual staging method leverages both the local CPU and the remote data staging server to build a hierarchical joint staging area and uses this staging area to transform blocking inter-application bulk data exchanges into best-effort local data movements between GPU and CPU. The dual channel dual staging is implemented as a portability extension of the Dataspaces-GPU staging framework. We present an experimental evaluation of its performance, portability, and scalability using this implementation on three leadership GPU clusters. The evaluation results demonstrate that the dual channel dual staging method saves up to 75% in data-exchange time compared to host-based, GDR, and alternate portable designs, while maintaining scalability (up to 512 GPUs) and performance portability across the three platforms.</p>
     
 
     
@@ -887,8 +854,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#article-journal">
-              Journal article
+            <a href="/publication/#paper-conference">
+              Conference paper
             </a>
           </div>
         </div>
@@ -904,7 +871,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Nature Methods</div>
+          <div class="col-12 col-md-9">In <em>2024 IEEE 31st International Conference on High Performance Computing, Data, and Analytics (HiPC)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -915,6 +882,15 @@
     <div class="space-below"></div>
 
     <div class="article-style"><!-- 
+
+<div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  </div>
+</div>
+
+
+
 
 <div class="alert alert-note">
   <div>
@@ -951,180 +927,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
 
   
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
   
     
 
